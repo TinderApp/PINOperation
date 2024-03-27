@@ -1,0 +1,6 @@
+objc_library(
+    name = "PINOperation",
+    srcs = glob(["Source/*.m"], allow_empty = False),
+    hdrs = glob(["Source/*.h"], allow_empty = False),
+    visibility = ["//visibility:public"],
+)
